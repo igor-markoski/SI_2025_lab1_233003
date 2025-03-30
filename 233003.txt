@@ -1,0 +1,30 @@
+4. mkdir SI_2025_lab1_233003
+cd SI_2025_lab1_233003
+git init
+5. git remote add origin https://github.com/igor-markoski/SI_2025_lab1_233003.git
+6. nano README.md
+git add README.md
+git commit -m "Initial commit"
+7. nano SI2025Lab1Main.java
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+8. git push origin master
+13. git fetch origin
+14-17. git checkout 2-find-all-completed-tasks
+nano SI2025Lab1Main.java
+git commit -a -m "Implement getCompletedTasks"
+git push origin 2-find-all-completed-tasks
+19. git checkout 3-list-tasks-sorted-by-name
+nano SI2025Lab1Main.java
+git commit -a -m "Implement sortTasksByName"
+git push origin 3-list-tasks-sorted-by-name
+git checkout 9-mark-all-tasks-in-a-category-as-completed
+nano SI2025Lab1Main.java
+git commit -a -m "Implement markCategoryCompleted"
+git push origin 9-mark-all-tasks-in-a-category-as-completed
+22-23. git checkout master
+git pull origin master
+git merge 9-mark-all-tasks-in-a-category-as-completed
+git push origin master
+25. git log --oneline --graph --all > logs.txt
+nano 233003.txt

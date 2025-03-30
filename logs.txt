@@ -1,0 +1,15 @@
+*   e9c9d78 Merge branch '9-mark-all-tasks-in-a-category-as-completed'
+|\  
+| * 6821324 Implement markCategoryCompleted
+* |   127556c Merge pull request #11 from igor-markoski/3-list-tasks-sorted-by-name
+|\ \  
+| * | 00fd891 Implement sortTasksByName
+| |/  
+* |   b2f6a2d Merge pull request #10 from igor-markoski/2-find-all-completed-tasks
+|\ \  
+| |/  
+|/|   
+| * 65b5f5f Implement getCompletedTasks
+|/  
+* 04d0eb9 Add starter code
+* e1416b7 Initial commit
